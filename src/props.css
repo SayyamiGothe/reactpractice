@@ -1,0 +1,14 @@
+.container
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.images>img
+{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
