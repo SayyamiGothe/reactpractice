@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Card from './Props';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Card src="https://m.media-amazon.com/images/I/6123XvvOu0L._AC_UL480_FMwebp_QL65_.jpg"
+    
+    name="reeebook shoes"/>
+   
+    <Card src="https://m.media-amazon.com/images/I/71cflgAolqL._AC_UL480_FMwebp_QL65_.jpg"/>
+    <Card src="https://m.media-amazon.com/images/I/6123XvvOu0L._AC_UL480_FMwebp_QL65_.jpg"/>
+   
+    <Card src="https://m.media-amazon.com/images/I/71cflgAolqL._AC_UL480_FMwebp_QL65_.jpg"/>
+    <Card src="https://m.media-amazon.com/images/I/6123XvvOu0L._AC_UL480_FMwebp_QL65_.jpg"/>
+   
+    <Card src="https://m.media-amazon.com/images/I/71cflgAolqL._AC_UL480_FMwebp_QL65_.jpg"/>
+    <Card src="https://m.media-amazon.com/images/I/6123XvvOu0L._AC_UL480_FMwebp_QL65_.jpg"/>
+   
+    <Card src="https://m.media-amazon.com/images/I/71cflgAolqL._AC_UL480_FMwebp_QL65_.jpg"/>
+    
+    
+    </>
+
+
+
+  )
 }
 
 export default App;
