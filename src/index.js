@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Usestate from './Usestate';
+import CondRendring from './CondRendring';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Usestate />
+    <CondRendring />
   </React.StrictMode>
 );
 

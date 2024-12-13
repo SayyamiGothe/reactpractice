@@ -8,7 +8,7 @@ const [A, setA] = useState(0)
     
     <>
     
-    <h1>The NUMBER IS BELONG TO  {A}</h1>
+    <h1>The NUMBER IS BELONG TO  {A}</h1>//counter programm
 
     <button onClick={()=>setA(A+1)}>INCREASE</button>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
