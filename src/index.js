@@ -7,11 +7,12 @@ import Usestate from './Usestate';
 import CondRendring from './CondRendring';
 import ListRender from './ListRender';
 import ObjecrRendring from './ObjecrRendring';
+import DynamicList from './DynamicList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ObjecrRendring/>
+    <DynamicList/>
   </React.StrictMode>
 );
 
