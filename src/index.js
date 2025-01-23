@@ -8,11 +8,13 @@ import CondRendring from './CondRendring';
 import ListRender from './ListRender';
 import ObjecrRendring from './ObjecrRendring';
 import DynamicList from './DynamicList';
+import Quizapp from './Quizapp';
+import UseEffects from './UseEffects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DynamicList/>
+  <UseEffects/>
   </React.StrictMode>
 );
 

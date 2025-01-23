@@ -1,0 +1,14 @@
+.container
+{
+    height: 100vh;
+    background-color: rgb(220, 112, 112);
+    align-items: center;
+   justify-content: center; 
+}
+
+.card
+{
+    height: 350px;
+   width: 450px;
+    background-color: bisque;
+}
