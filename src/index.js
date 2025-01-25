@@ -10,11 +10,12 @@ import ObjecrRendring from './ObjecrRendring';
 import DynamicList from './DynamicList';
 import Quizapp from './Quizapp';
 import UseEffects from './UseEffects';
+import UseContext1 from './UseContext1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <UseEffects/>
+  <UseContext1/>
   </React.StrictMode>
 );
 
