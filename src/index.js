@@ -11,11 +11,12 @@ import DynamicList from './DynamicList';
 import Quizapp from './Quizapp';
 import UseEffects from './UseEffects';
 import UseContext1 from './UseContext1';
+import UseRef from './UseRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <UseContext1/>
+  <UseRef/>
   </React.StrictMode>
 );
 
