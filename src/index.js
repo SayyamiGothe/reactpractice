@@ -13,11 +13,12 @@ import UseEffects from './UseEffects';
 import UseContext1 from './UseContext1';
 import UseRef from './UseRef';
 import CurrenciApiFetch from './CurrenciApiFetch';
+import WeatherApi from './WeatherApi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <CurrenciApiFetch/>
+  <WeatherApi/>
   </React.StrictMode>
 );
 

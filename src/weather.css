@@ -1,0 +1,47 @@
+.main{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(214, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather{
+    width:37.5rem;
+    height:37.5rem;
+    background-color: rgb(16, 205, 231);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  
+  input{
+    height: 40px;
+    width: 400px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    color:white;
+  }
+  
+  button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 8px;
+    background-color: coral;
+    color:white;
+    cursor: pointer;
+  }
+  
+  h1{
+    color:white;
+  }
