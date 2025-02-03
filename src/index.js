@@ -14,11 +14,12 @@ import UseContext1 from './UseContext1';
 import UseRef from './UseRef';
 import CurrenciApiFetch from './CurrenciApiFetch';
 import WeatherApi from './WeatherApi';
+import RouterReact from './RouterReact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <WeatherApi/>
+ <RouterReact/>
   </React.StrictMode>
 );
 
